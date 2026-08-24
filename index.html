@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="app-container">
+    <header>
+      <h1>Minhas Tarefas</h1>
+      <p>Organize seu dia de forma simples</p>
+    </header>
+
+    <form class="input-group" id="task-form">
+      <input 
+        type="text" 
+        id="task-input" 
+        placeholder="Digite uma nova tarefa..." 
+        autocomplete="off" 
+        required 
+      />
+      <button type="submit" class="btn-add">Adicionar</button>
+    </form>
+
+    <div class="controls">
+      <span id="task-counter">0 tarefas pendentes</span>
+    </div>
+
+    <ul class="task-list" id="task-list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
