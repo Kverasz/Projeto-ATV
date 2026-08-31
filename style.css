@@ -184,3 +184,36 @@ header p {
     width: 100%;
   }
 }
+
+/* Bloco da API Externa */
+.api-container {
+  background-color: #eef5fc;
+  border-left: 4px solid var(--primary-color);
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.api-container p {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.btn-api {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-api:hover {
+  text-decoration: underline;
+}
